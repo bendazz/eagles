@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalen Hurts 2024 Season - Passing Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .header {
+            text-align: center;
+            background-color: #004c54;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .controls {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .controls h3 {
+            margin-top: 0;
+            color: #004c54;
+        }
+        
+        .control-group {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        select, button {
+            padding: 10px;
+            border: 2px solid #004c54;
+            border-radius: 5px;
+            background-color: white;
+            color: #004c54;
+            font-size: 16px;
+        }
+        
+        button {
+            background-color: #004c54;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #006b76;
+        }
+        
+        button.active {
+            background-color: #00a86b;
+        }
+        
+        .view-mode-btn {
+            background-color: #004c54;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .view-mode-btn:hover {
+            background-color: #006b76;
+        }
+        
+        .view-mode-btn.active {
+            background-color: #00a86b;
+        }
+        
+        .chart-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            height: 500px;
+        }
+        
+        .grid-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: none;
+        }
+        
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .mini-chart {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 10px;
+            height: 250px;
+        }
+        
+        .mini-chart canvas {
+            height: 100% !important;
+        }
+        
+        .mini-chart-title {
+            text-align: center;
+            font-weight: bold;
+            color: #004c54;
+            margin-bottom: 10px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        .team-logo {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+        }
+        
+        .main-team-logo {
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+            margin-left: 10px;
+        }
+        
+        .chart-title-with-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .stats {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        
+        .stat-item {
+            flex: 1;
+        }
+        
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #004c54;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        /* Win/Loss color coding */
+        .game-result-win {
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .game-result-loss {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        
+        .game-result-tie {
+            color: #ffc107;
+            font-weight: bold;
+        }
+        
+        /* Score highlighting in titles */
+        .score-win {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .score-loss {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .score-tie {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🦅 Jalen Hurts - 2024 Season Passing Analysis</h1>
+        <p>Philadelphia Eagles Quarterback Performance</p>
+    </div>
+    
+    <div class="controls">
+        <h3>📊 Chart Controls</h3>
+        <div class="control-group">
+            <div>
+                <label for="weekSelect">Select Week:</label>
+                <select id="weekSelect">
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+            </div>
+            
+            <div>
+                <label for="viewMode">View Mode:</label>
+                <button id="singleBtn" class="view-mode-btn active" data-mode="single">
+                    Single Week
+                </button>
+                <button id="gridBtn" class="view-mode-btn" data-mode="grid">
+                    All Weeks Grid
+                </button>
+            </div>
+            
+            <div>
+                <label for="chartType">Chart Type:</label>
+                <button id="individualBtn" class="chart-type-btn active" data-type="individual">
+                    Individual Yards
+                </button>
+                <button id="cumulativeBtn" class="chart-type-btn" data-type="cumulative">
+                    Cumulative Yards
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="stats" id="statsContainer">
+        <!-- Stats will be populated by JavaScript -->
+    </div>
+    
+    <div class="chart-container" id="singleChartContainer">
+        <div class="chart-title-with-logo" id="chartTitleContainer" style="margin-bottom: 15px; display: none;">
+            <img id="mainTeamLogo" class="main-team-logo" alt="Opponent Logo">
+            <span id="mainChartTitle" style="font-size: 18px; font-weight: bold; color: #004c54;"></span>
+        </div>
+        <canvas id="passingChart"></canvas>
+    </div>
+    
+    <div class="grid-container" id="gridContainer">
+        <div class="charts-grid" id="chartsGrid">
+            <!-- Mini charts will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <script>
+        let allData = [];
+        let chart = null;
+        let miniCharts = [];
+        let currentChartType = 'individual';
+        let currentWeek = '';
+        let currentViewMode = 'single';
+
+        // Helper function to format game result with colors
+        function formatGameResult(gameResult, eaglesScore, opponentScore, includeHTML = false) {
+            let resultSymbol = '';
+            switch(gameResult) {
+                case 'W':
+                    resultSymbol = includeHTML ? '✅' : '🟢';
+                    break;
+                case 'L':
+                    resultSymbol = includeHTML ? '❌' : '🔴';
+                    break;
+                case 'T':
+                    resultSymbol = includeHTML ? '⚖️' : '🟡';
+                    break;
+                default:
+                    resultSymbol = '';
+            }
+            
+            const scoreText = `${resultSymbol} ${gameResult} ${eaglesScore}-${opponentScore}`;
+            
+            if (!includeHTML) {
+                return scoreText;
+            }
+            
+            let cssClass = '';
+            switch(gameResult) {
+                case 'W':
+                    cssClass = 'score-win';
+                    break;
+                case 'L':
+                    cssClass = 'score-loss';
+                    break;
+                case 'T':
+                    cssClass = 'score-tie';
+                    break;
+                default:
+                    cssClass = '';
+            }
+            
+            return `<span class="${cssClass}">${scoreText}</span>`;
+        }
+
+        // Load and parse CSV data
+        async function loadData() {
+            try {
+                const response = await fetch('data.csv');
+                const csvText = await response.text();
+                
+                // Parse CSV
+                const lines = csvText.trim().split('\n');
+                const headers = lines[0].split(',');
+                
+                allData = lines.slice(1).map(line => {
+                    const values = line.split(',');
+                    const awayHome = values[7];
+                    const homeScore = parseInt(values[8]);
+                    const awayScore = parseInt(values[9]);
+                    
+                    // Calculate Eagles score and opponent score based on home/away
+                    const eaglesScore = awayHome === 'home' ? homeScore : awayScore;
+                    const opponentScore = awayHome === 'home' ? awayScore : homeScore;
+                    
+                    return {
+                        week: parseInt(values[0]),
+                        yards_gained: parseFloat(values[1]),
+                        cumulative_yards: parseFloat(values[2]),
+                        minutes_elapsed: parseFloat(values[3]),
+                        opponent: values[4],
+                        team_logo_espn: values[5],
+                        team_name: values[6],
+                        away_home: awayHome,
+                        home_score: homeScore,
+                        away_score: awayScore,
+                        eagles_score: eaglesScore,
+                        opponent_score: opponentScore,
+                        game_result: eaglesScore > opponentScore ? 'W' : (eaglesScore < opponentScore ? 'L' : 'T')
+                    };
+                });
+                
+                populateWeekSelect();
+                updateDisplay();
+                updateStats();
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                alert('Error loading data. Please make sure data.csv is in the same directory.');
+            }
+        }
+
+        // Populate week selector
+        function populateWeekSelect() {
+            const weekSelect = document.getElementById('weekSelect');
+            const weeks = [...new Set(allData.map(d => d.week))].sort((a, b) => a - b);
+            
+            weeks.forEach(week => {
+                const option = document.createElement('option');
+                option.value = week;
+                option.textContent = `Week ${week}`;
+                weekSelect.appendChild(option);
+            });
+            
+            // Select the first week by default
+            if (weeks.length > 0) {
+                weekSelect.value = weeks[0];
+                currentWeek = weeks[0].toString();
+            }
+        }
+
+        // Filter data based on selected week
+        function getFilteredData() {
+            return allData.filter(d => d.week == currentWeek);
+        }
+
+        // Update statistics display
+        function updateStats() {
+            const data = getFilteredData();
+            const statsContainer = document.getElementById('statsContainer');
+            
+            if (data.length === 0) {
+                statsContainer.innerHTML = '<p>No data available for selected week.</p>';
+                return;
+            }
+            
+            const totalPasses = data.length;
+            const totalYards = data.reduce((sum, d) => sum + Math.max(0, d.yards_gained), 0);
+            const avgYards = totalYards / totalPasses;
+            const maxYards = Math.max(...data.map(d => d.yards_gained));
+            const weeks = [...new Set(data.map(d => d.week))];
+            
+            statsContainer.innerHTML = `
+                <div class="stat-item">
+                    <div class="stat-value">${totalPasses}</div>
+                    <div class="stat-label">Total Passes</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">${totalYards}</div>
+                    <div class="stat-label">Total Yards</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">${avgYards.toFixed(1)}</div>
+                    <div class="stat-label">Avg Yards/Pass</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">${maxYards}</div>
+                    <div class="stat-label">Longest Pass</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">${weeks.length}</div>
+                    <div class="stat-label">Week(s)</div>
+                </div>
+            `;
+        }
+
+        // Update display based on current view mode
+        function updateDisplay() {
+            if (currentViewMode === 'single') {
+                document.getElementById('singleChartContainer').style.display = 'block';
+                document.getElementById('gridContainer').style.display = 'none';
+                document.getElementById('weekSelect').style.display = 'inline-block';
+                updateChart();
+            } else {
+                document.getElementById('singleChartContainer').style.display = 'none';
+                document.getElementById('gridContainer').style.display = 'block';
+                document.getElementById('weekSelect').style.display = 'none';
+                createGridCharts();
+            }
+        }
+
+        // Create grid of mini charts for all weeks
+        function createGridCharts() {
+            const weeks = [...new Set(allData.map(d => d.week))].sort((a, b) => a - b);
+            const chartsGrid = document.getElementById('chartsGrid');
+            
+            // Clear existing mini charts
+            miniCharts.forEach(chart => chart.destroy());
+            miniCharts = [];
+            chartsGrid.innerHTML = '';
+            
+            weeks.forEach(week => {
+                // Create container for mini chart
+                const miniChartDiv = document.createElement('div');
+                miniChartDiv.className = 'mini-chart';
+                
+                // Get team name and logo for this week
+                const weekData = allData.filter(d => d.week === week);
+                const teamName = weekData.length > 0 ? weekData[0].team_name : '';
+                const teamLogo = weekData.length > 0 ? weekData[0].team_logo_espn : '';
+                const eaglesScore = weekData.length > 0 ? weekData[0].eagles_score : '';
+                const opponentScore = weekData.length > 0 ? weekData[0].opponent_score : '';
+                const gameResult = weekData.length > 0 ? weekData[0].game_result : '';
+                
+                const title = document.createElement('div');
+                title.className = 'mini-chart-title';
+                
+                // Add team logo if available
+                if (teamLogo) {
+                    const logoImg = document.createElement('img');
+                    logoImg.src = teamLogo;
+                    logoImg.className = 'team-logo';
+                    logoImg.alt = teamName;
+                    title.appendChild(logoImg);
+                }
+                
+                const titleText = document.createElement('span');
+                titleText.innerHTML = `Week ${week} vs ${teamName} (${formatGameResult(gameResult, eaglesScore, opponentScore, true)})`;
+                title.appendChild(titleText);
+                
+                const canvas = document.createElement('canvas');
+                canvas.id = `miniChart${week}`;
+                
+                miniChartDiv.appendChild(title);
+                miniChartDiv.appendChild(canvas);
+                chartsGrid.appendChild(miniChartDiv);
+                
+                // Create chart for this week
+                createMiniChart(week, canvas);
+            });
+        }
+
+        // Create individual mini chart
+        function createMiniChart(week, canvas) {
+            const weekData = allData.filter(d => d.week === week);
+            
+            if (weekData.length === 0) return;
+            
+            const yField = currentChartType === 'individual' ? 'yards_gained' : 'cumulative_yards';
+            const yLabel = currentChartType === 'individual' ? 'Yards Gained' : 'Cumulative Yards';
+            
+            // Get team info for this week
+            const teamName = weekData.length > 0 ? weekData[0].team_name : '';
+            const eaglesScore = weekData.length > 0 ? weekData[0].eagles_score : '';
+            const opponentScore = weekData.length > 0 ? weekData[0].opponent_score : '';
+            const gameResult = weekData.length > 0 ? weekData[0].game_result : '';
+            
+            // Sort data by minutes elapsed
+            const sortedData = [...weekData].sort((a, b) => a.minutes_elapsed - b.minutes_elapsed);
+            
+            // Fixed axis ranges (same as main chart)
+            const yMin = currentChartType === 'individual' ? -5 : 0;
+            const yMax = currentChartType === 'individual' ? 70 : 320;
+            
+            const dataset = {
+                data: sortedData.map(d => ({
+                    x: d.minutes_elapsed,
+                    y: d[yField]
+                })),
+                borderColor: '#004c54',
+                backgroundColor: '#004c54' + '40',
+                borderWidth: 1.5,
+                pointRadius: 2,
+                pointHoverRadius: 4,
+                fill: false,
+                tension: 0.1
+            };
+            
+            const miniChart = new Chart(canvas, {
+                type: 'line',
+                data: { datasets: [dataset] },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        title: {
+                            display: true,
+                            text: `Week ${week} vs ${teamName} (${formatGameResult(gameResult, eaglesScore, opponentScore, false)})`,
+                            font: { size: 12 }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                title: function(context) {
+                                    const minutes = context[0].parsed.x;
+                                    return `${minutes.toFixed(1)} min elapsed vs ${teamName} (${formatGameResult(gameResult, eaglesScore, opponentScore, false)})`;
+                                },
+                                label: function(context) {
+                                    return `${context.parsed.y} yards`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            type: 'linear',
+                            display: true,
+                            min: 0,
+                            max: 60,
+                            ticks: {
+                                font: { size: 10 }
+                            }
+                        },
+                        y: {
+                            display: true,
+                            min: yMin,
+                            max: yMax,
+                            ticks: {
+                                font: { size: 10 }
+                            }
+                        }
+                    },
+                    interaction: {
+                        intersect: false,
+                        mode: 'point'
+                    }
+                }
+            });
+            
+            miniCharts.push(miniChart);
+        }
+        function updateChart() {
+            const ctx = document.getElementById('passingChart').getContext('2d');
+            const data = getFilteredData();
+            
+            if (chart) {
+                chart.destroy();
+            }
+            
+            if (data.length === 0) {
+                // Hide title container if no data
+                document.getElementById('chartTitleContainer').style.display = 'none';
+                return;
+            }
+            
+            const yField = currentChartType === 'individual' ? 'yards_gained' : 'cumulative_yards';
+            const yLabel = currentChartType === 'individual' ? 'Yards Gained' : 'Cumulative Yards';
+            
+            // Get team info for this week
+            const teamName = data.length > 0 ? data[0].team_name : '';
+            const teamLogo = data.length > 0 ? data[0].team_logo_espn : '';
+            const eaglesScore = data.length > 0 ? data[0].eagles_score : '';
+            const opponentScore = data.length > 0 ? data[0].opponent_score : '';
+            const gameResult = data.length > 0 ? data[0].game_result : '';
+            
+            // Update title area with team info
+            const titleContainer = document.getElementById('chartTitleContainer');
+            const logoElement = document.getElementById('mainTeamLogo');
+            const titleElement = document.getElementById('mainChartTitle');
+            
+            if (teamLogo && teamName) {
+                logoElement.src = teamLogo;
+                logoElement.alt = teamName;
+                titleElement.innerHTML = `Week ${currentWeek} vs ${teamName} (${formatGameResult(gameResult, eaglesScore, opponentScore, true)})`;
+                titleContainer.style.display = 'flex';
+            } else {
+                titleContainer.style.display = 'none';
+            }
+            
+            // Sort data by minutes elapsed (ascending for chronological order)
+            const sortedData = [...data].sort((a, b) => a.minutes_elapsed - b.minutes_elapsed);
+            
+            // Always use line chart now
+            const chartType = 'line';
+            
+            // Fixed axis ranges for consistent comparison across weeks
+            const yMin = currentChartType === 'individual' ? -5 : 0;  // Individual: -5 to 70, Cumulative: 0 to 320
+            const yMax = currentChartType === 'individual' ? 70 : 320;
+            
+            console.log('Minutes elapsed range in this week:', Math.min(...sortedData.map(d => d.minutes_elapsed)), 'to', Math.max(...sortedData.map(d => d.minutes_elapsed))); // Debug log
+            console.log('Y-axis fixed range:', yMin, 'to', yMax); // Debug log
+            
+            const dataset = {
+                label: `Week ${currentWeek} vs ${teamName} (${formatGameResult(gameResult, eaglesScore, opponentScore, false)})`,
+                data: sortedData.map(d => ({
+                    x: d.minutes_elapsed,
+                    y: d[yField]
+                })),
+                backgroundColor: '#004c54' + '80',
+                borderColor: '#004c54',
+                borderWidth: 2,
+                pointRadius: 4,
+                pointHoverRadius: 6,
+                fill: false,
+                tension: 0.1
+            };
+            
+            chart = new Chart(ctx, {
+                type: chartType,
+                data: { datasets: [dataset] },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: `Jalen Hurts ${yLabel} vs Time Elapsed`,
+                            font: { size: 16 }
+                        },
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                title: function(context) {
+                                    const minutes = context[0].parsed.x;
+                                    return `${minutes.toFixed(1)} minutes elapsed vs ${teamName} (${formatGameResult(gameResult, eaglesScore, opponentScore, false)})`;
+                                },
+                                label: function(context) {
+                                    return `${context.parsed.y} yards`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            type: 'linear',
+                            title: {
+                                display: true,
+                                text: 'Minutes Elapsed in Game'
+                            },
+                            min: 0,
+                            max: 60
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: yLabel
+                            },
+                            min: yMin,
+                            max: yMax
+                        }
+                    },
+                    interaction: {
+                        intersect: false,
+                        mode: 'point'
+                    }
+                }
+            });
+        }
+
+        // Event listeners
+        document.getElementById('weekSelect').addEventListener('change', function(e) {
+            currentWeek = e.target.value;
+            if (currentViewMode === 'single') {
+                updateChart();
+                updateStats();
+            }
+        });
+
+        document.querySelectorAll('.chart-type-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.chart-type-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                currentChartType = this.dataset.type;
+                updateDisplay();
+            });
+        });
+
+        document.querySelectorAll('.view-mode-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.view-mode-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                currentViewMode = this.dataset.mode;
+                updateDisplay();
+                if (currentViewMode === 'single') {
+                    updateStats();
+                } else {
+                    // Clear stats for grid view
+                    document.getElementById('statsContainer').innerHTML = '<p>Grid view - Select individual weeks to see detailed stats</p>';
+                }
+            });
+        });
+
+        // Initialize app
+        loadData();
+    </script>
+</body>
+</html>

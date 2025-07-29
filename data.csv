@@ -1,0 +1,453 @@
+week,yards_gained,cumulative_yards,minutes_elapsed,opponent,team_logo_espn,team_name,away_home,home_score,away_score
+1,0.0,0.0,3.95,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,0.0,0.0,4.05,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,1.0,1.0,7.23333333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,4.0,5.0,11.9833333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,8.0,13.0,13.3333333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,8.0,21.0,14.3333333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,9.0,30.0,14.9,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,0.0,30.0,15.0,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,18.0,48.0,17.2833333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,0.0,48.0,20.45,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,20.0,68.0,20.5666666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,25.0,93.0,21.9333333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,5.0,98.0,22.6833333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,0.0,98.0,24.9,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,13.0,111.0,24.9833333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,0.0,111.0,25.6666666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,21.0,132.0,26.4333333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,0.0,132.0,27.8,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,7.0,139.0,28.0166666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,10.0,149.0,29.1,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,5.0,154.0,29.4833333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,67.0,221.0,30.6333333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,0.0,221.0,33.0833333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,0.0,221.0,37.4333333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,8.0,229.0,38.8666666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,0.0,229.0,45.0,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,11.0,240.0,45.05,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,11.0,251.0,45.5,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,0.0,251.0,46.7333333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,0.0,251.0,46.8333333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,0.0,251.0,55.2,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,16.0,267.0,57.6166666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+1,11.0,278.0,57.8333333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,34,29
+2,15.0,15.0,0.100000000000001,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,4.0,19.0,1.58333333333334,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,6.0,25.0,5.46666666666667,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,4.0,29.0,6.78333333333333,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,0.0,29.0,10.0666666666667,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,0.0,29.0,10.25,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,5.0,34.0,13.7166666666667,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,0.0,34.0,14.4,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,18.0,52.0,19.2833333333333,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,0.0,52.0,19.7666666666667,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,9.0,61.0,20.5666666666667,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,2.0,63.0,23.9166666666667,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,7.0,70.0,24.6666666666667,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,14.0,84.0,36.7666666666667,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,10.0,94.0,37.3166666666667,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,19.0,113.0,38.65,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,3.0,116.0,39.75,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,0.0,116.0,40.4,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,8.0,124.0,44.6166666666667,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,9.0,133.0,45.0,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,1.0,134.0,45.55,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,3.0,137.0,46.05,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,5.0,142.0,46.7833333333333,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,4.0,146.0,48.7833333333333,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,4.0,150.0,52.85,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,16.0,166.0,55.5166666666667,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,4.0,170.0,56.3333333333333,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,0.0,170.0,58.2333333333333,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,13.0,183.0,59.4333333333333,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+2,0.0,183.0,59.55,ATL,https://a.espncdn.com/i/teamlogos/nfl/500/atl.png,Atlanta Falcons,home,21,22
+3,2.0,2.0,8.83333333333334,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,21.0,23.0,12.15,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,43.0,66.0,12.8666666666667,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,2.0,68.0,14.3833333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,0.0,68.0,15.0,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,11.0,79.0,18.3666666666667,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,9.0,88.0,18.9,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,-4.0,84.0,19.65,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,4.0,88.0,20.3666666666667,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,6.0,94.0,21.0833333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,2.0,96.0,26.0833333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,0.0,96.0,26.8333333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,9.0,105.0,26.9,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,3.0,108.0,28.0,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,1.0,109.0,28.0833333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,14.0,123.0,28.1833333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,0.0,123.0,28.8166666666667,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,7.0,130.0,28.9,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,22.0,152.0,29.0333333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,0.0,152.0,29.4333333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,3.0,155.0,29.55,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,6.0,161.0,29.6333333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,3.0,164.0,31.4833333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,18.0,182.0,33.3666666666667,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,9.0,191.0,40.95,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,8.0,199.0,42.45,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,0.0,199.0,43.2666666666667,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,0.0,199.0,43.3833333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,6.0,205.0,45.0333333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,6.0,211.0,45.55,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,5.0,216.0,46.1,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,0.0,216.0,50.2666666666667,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,30.0,246.0,51.05,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,-1.0,245.0,52.4666666666667,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,0.0,245.0,53.0833333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,5.0,250.0,58.0333333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,0.0,250.0,58.65,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+3,61.0,311.0,58.7333333333333,NO,https://a.espncdn.com/i/teamlogos/nfl/500/no.png,New Orleans Saints,away,12,15
+4,0.0,0.0,5.26666666666667,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,7.0,7.0,6.13333333333333,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,0.0,7.0,9.95,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,0.0,7.0,15.85,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,0.0,7.0,15.9333333333333,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,0.0,7.0,16.0166666666667,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,4.0,11.0,22.7,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,0.0,11.0,23.1166666666667,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,5.0,16.0,24.25,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,9.0,25.0,25.55,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,18.0,43.0,26.0666666666667,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,1.0,44.0,28.0,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,0.0,44.0,28.7666666666667,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,0.0,44.0,28.8333333333333,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,5.0,49.0,28.8833333333333,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,9.0,58.0,30.65,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,27.0,85.0,38.8666666666667,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,6.0,91.0,40.0333333333333,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,8.0,99.0,41.1,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,5.0,104.0,47.0166666666667,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,6.0,110.0,47.55,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,26.0,136.0,48.0,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,0.0,136.0,48.4833333333333,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,0.0,136.0,52.3333333333333,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,7.0,143.0,52.4333333333333,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,0.0,143.0,53.1333333333333,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,4.0,147.0,53.2,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,7.0,154.0,53.8666666666667,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,0.0,154.0,54.9666666666667,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+4,4.0,158.0,55.0333333333333,TB,https://a.espncdn.com/i/teamlogos/nfl/500/tb.png,Tampa Bay Buccaneers,away,33,16
+6,0.0,0.0,0.700000000000003,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,0.0,0.0,0.766666666666666,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,0.0,0.0,2.3,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,0.0,0.0,4.68333333333333,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,0.0,0.0,4.76666666666667,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,13.0,13.0,11.75,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,6.0,19.0,14.55,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,0.0,19.0,16.8333333333333,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,34.0,53.0,17.95,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,16.0,69.0,19.0666666666667,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,0.0,69.0,22.55,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,22.0,91.0,22.6,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,20.0,111.0,28.1166666666667,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,17.0,128.0,28.5166666666667,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,9.0,137.0,29.0,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,0.0,137.0,29.4,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,0.0,137.0,35.2833333333333,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,7.0,144.0,35.3833333333333,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,6.0,150.0,40.8666666666667,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,0.0,150.0,41.95,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,7.0,157.0,50.7666666666667,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,12.0,169.0,51.3666666666667,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,45.0,214.0,51.95,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,10.0,224.0,57.7666666666667,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+6,40.0,264.0,58.0,CLE,https://a.espncdn.com/i/teamlogos/nfl/500/cle.png,Cleveland Browns,home,20,16
+7,11.0,11.0,1.46666666666667,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+7,10.0,21.0,3.43333333333333,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+7,0.0,21.0,7.08333333333334,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+7,13.0,34.0,9.83333333333334,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+7,9.0,43.0,12.0666666666667,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+7,11.0,54.0,23.7166666666667,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+7,5.0,59.0,24.7833333333333,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+7,0.0,59.0,25.3166666666667,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+7,41.0,100.0,25.4333333333333,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+7,-2.0,98.0,26.9166666666667,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+7,1.0,99.0,30.0,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+7,0.0,99.0,31.4166666666667,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+7,15.0,114.0,33.1666666666667,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+7,0.0,114.0,36.3166666666667,NYG,https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png,New York Giants,away,3,28
+8,29.0,29.0,12.05,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,-2.0,27.0,14.0,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,0.0,27.0,15.7,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,0.0,27.0,20.4666666666667,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,0.0,27.0,20.5166666666667,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,9.0,36.0,20.6166666666667,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,0.0,36.0,23.2,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,19.0,55.0,26.7166666666667,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,3.0,58.0,27.2666666666667,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,11.0,69.0,28.0,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,17.0,86.0,28.2666666666667,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,15.0,101.0,31.3333333333333,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,28.0,129.0,31.9666666666667,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,6.0,135.0,33.2166666666667,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,23.0,158.0,40.7333333333333,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,45.0,203.0,42.15,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,6.0,209.0,45.7,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,9.0,218.0,49.7666666666667,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,7.0,225.0,51.15,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+8,11.0,236.0,53.9333333333333,CIN,https://a.espncdn.com/i/teamlogos/nfl/500/cin.png,Cincinnati Bengals,away,17,37
+9,0.0,0.0,0.0,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,4.0,4.0,0.733333333333334,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,0.0,4.0,3.83333333333334,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,20.0,24.0,4.53333333333333,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,6.0,30.0,10.1,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,20.0,50.0,13.0833333333333,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,7.0,57.0,13.45,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,14.0,71.0,15.7166666666667,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,1.0,72.0,17.0833333333333,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,10.0,82.0,22.5666666666667,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,3.0,85.0,24.3166666666667,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,0.0,85.0,25.0833333333333,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,16.0,101.0,27.9333333333333,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,9.0,110.0,28.7166666666667,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,6.0,116.0,29.2,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,0.0,116.0,29.2833333333333,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,36.0,152.0,33.6,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,0.0,152.0,40.3666666666667,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,0.0,152.0,42.75,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,0.0,152.0,43.5833333333333,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,7.0,159.0,49.2,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,46.0,205.0,49.8333333333333,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,0.0,205.0,51.4833333333333,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,25.0,230.0,52.1833333333333,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+9,0.0,230.0,52.2833333333333,JAX,https://a.espncdn.com/i/teamlogos/nfl/500/jax.png,Jacksonville Jaguars,home,28,23
+10,3.0,3.0,6.83333333333334,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,12.0,15.0,7.38333333333333,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,9.0,24.0,11.9333333333333,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,11.0,35.0,13.75,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,30.0,65.0,14.35,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,0.0,65.0,15.0,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,27.0,92.0,17.8,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,14.0,106.0,28.2833333333333,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,5.0,111.0,28.3666666666667,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,0.0,111.0,28.4333333333333,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,18.0,129.0,28.5333333333333,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,9.0,138.0,29.4166666666667,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,14.0,152.0,29.5333333333333,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,0.0,152.0,30.8333333333333,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,0.0,152.0,30.95,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,0.0,152.0,35.9166666666667,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,5.0,157.0,36.0,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,44.0,201.0,37.7833333333333,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,1.0,202.0,43.95,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+10,0.0,202.0,45.0,DAL,https://a.espncdn.com/i/teamlogos/nfl/500/dal.png,Dallas Cowboys,away,6,34
+11,8.0,8.0,0.0,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,0.0,8.0,0.649999999999999,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,0.0,8.0,1.91666666666666,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,7.0,15.0,2.03333333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,25.0,40.0,2.46666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,0.0,40.0,4.2,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,2.0,42.0,8.13333333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,0.0,42.0,8.61666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,0.0,42.0,11.6666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,0.0,42.0,12.5,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,6.0,48.0,16.9666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,10.0,58.0,17.6833333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,0.0,58.0,21.55,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,9.0,67.0,25.8166666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,10.0,77.0,26.7333333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,3.0,80.0,27.2666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,21.0,101.0,28.4666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,0.0,101.0,29.1166666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,0.0,101.0,29.5333333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,15.0,116.0,35.3333333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,43.0,159.0,37.2166666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,2.0,161.0,37.8833333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,0.0,161.0,39.3333333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,2.0,163.0,43.0666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,17.0,180.0,43.6666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,3.0,183.0,44.2666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,32.0,215.0,52.7666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+11,6.0,221.0,54.2333333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,26,18
+12,6.0,6.0,3.13333333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,19.0,25.0,3.83333333333334,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,17.0,42.0,4.46666666666667,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,1.0,43.0,8.95,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,4.0,47.0,13.9666666666667,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,0.0,47.0,15.7,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,27.0,74.0,21.15,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,0.0,74.0,22.5,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,-1.0,73.0,22.5833333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,4.0,77.0,26.3,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,5.0,82.0,28.0,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,13.0,95.0,28.2333333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,6.0,101.0,28.4666666666667,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,0.0,101.0,29.65,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,0.0,101.0,29.8166666666667,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,12.0,113.0,34.15,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,0.0,113.0,36.5166666666667,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,31.0,144.0,37.9166666666667,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,28.0,172.0,44.8333333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,7.0,179.0,45.6833333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,0.0,179.0,49.1833333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+12,0.0,179.0,49.3833333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,away,20,37
+13,0.0,0.0,0.633333333333333,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,0.0,0.0,1.41666666666666,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,0.0,0.0,6.21666666666667,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,0.0,0.0,6.33333333333334,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,5.0,5.0,11.9333333333333,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,13.0,18.0,15.1833333333333,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,7.0,25.0,19.65,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,9.0,34.0,21.4333333333333,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,17.0,51.0,21.85,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,15.0,66.0,23.9666666666667,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,15.0,81.0,24.95,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,14.0,95.0,25.7666666666667,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,9.0,104.0,26.1833333333333,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,0.0,104.0,27.1666666666667,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,0.0,104.0,36.4,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,5.0,109.0,44.1666666666667,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,0.0,109.0,44.9333333333333,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,0.0,109.0,50.0333333333333,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+13,9.0,118.0,50.1333333333333,BAL,https://a.espncdn.com/i/teamlogos/nfl/500/bal.png,Baltimore Ravens,away,19,24
+14,5.0,5.0,2.15,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,0.0,5.0,4.25,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,0.0,5.0,4.33333333333334,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,3.0,8.0,14.9,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,7.0,15.0,15.8666666666667,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,0.0,15.0,16.4833333333333,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,27.0,42.0,16.5666666666667,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,0.0,42.0,26.6833333333333,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,0.0,42.0,26.8166666666667,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,2.0,44.0,28.1666666666667,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,10.0,54.0,28.5666666666667,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,5.0,59.0,29.2,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,7.0,66.0,29.3,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,4.0,70.0,29.7,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,0.0,70.0,30.0,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,3.0,73.0,45.45,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,4.0,77.0,46.1666666666667,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,11.0,88.0,51.4166666666667,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,15.0,103.0,55.1833333333333,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,0.0,103.0,56.6833333333333,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+14,5.0,108.0,56.7666666666667,CAR,https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png,Carolina Panthers,home,22,16
+15,22.0,22.0,1.51666666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,7.0,29.0,2.28333333333333,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,21.0,50.0,2.66666666666666,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,3.0,53.0,3.63333333333333,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,10.0,63.0,7.98333333333333,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,16.0,79.0,11.3,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,20.0,99.0,11.7,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,5.0,104.0,13.7,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,17.0,121.0,17.4666666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,0.0,121.0,18.0166666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,7.0,128.0,18.1,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,16.0,144.0,18.7666666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,2.0,146.0,20.8166666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,8.0,154.0,31.7666666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,0.0,154.0,32.7333333333333,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,20.0,174.0,32.8666666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,4.0,178.0,34.1,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,4.0,182.0,34.55,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,0.0,182.0,36.9,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,0.0,182.0,39.1666666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,5.0,187.0,39.25,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,6.0,193.0,39.9166666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,5.0,198.0,42.3333333333333,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,0.0,198.0,44.2166666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,14.0,212.0,44.3833333333333,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,0.0,212.0,49.5166666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,21.0,233.0,50.2166666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,4.0,237.0,51.6333333333333,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,22.0,259.0,53.65,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,0.0,259.0,55.1666666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,12.0,271.0,55.2333333333333,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+15,19.0,290.0,56.8166666666667,PIT,https://a.espncdn.com/i/teamlogos/nfl/500/pit.png,Pittsburgh Steelers,home,27,13
+16,0.0,0.0,0.81666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,away,36,33
+16,0.0,0.0,1.45,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,away,36,33
+16,11.0,11.0,3.98333333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,away,36,33
+16,0.0,11.0,5.08333333333334,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,away,36,33
+19,11.0,11.0,1.5,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,10.0,21.0,3.23333333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,4.0,25.0,4.26666666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,0.0,25.0,4.9,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,4.0,29.0,11.7666666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,10.0,39.0,13.6666666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,0.0,39.0,14.3666666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,0.0,39.0,14.4166666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,0.0,39.0,14.5666666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,0.0,39.0,16.3166666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,0.0,39.0,25.7,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,0.0,39.0,29.4833333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,0.0,39.0,29.5666666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,28.0,67.0,40.3166666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,9.0,76.0,40.8833333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,24.0,100.0,41.5666666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,10.0,110.0,45.0666666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,0.0,110.0,46.3333333333333,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,4.0,114.0,47.4666666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,8.0,122.0,49.75,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+19,9.0,131.0,50.9166666666667,GB,https://a.espncdn.com/i/teamlogos/nfl/500/gb.png,Green Bay Packers,home,22,10
+20,14.0,14.0,0.0833333333333357,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,5.0,19.0,0.783333333333331,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,6.0,25.0,2.43333333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,0.0,25.0,9.2,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,6.0,31.0,13.1833333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,5.0,36.0,18.8333333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,0.0,36.0,20.85,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,16.0,52.0,26.4166666666667,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,10.0,62.0,27.0833333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,2.0,64.0,28.0,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,0.0,64.0,28.9333333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,2.0,66.0,29.4166666666667,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,7.0,73.0,31.6666666666667,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,0.0,73.0,32.7833333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,31.0,104.0,38.65,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,5.0,109.0,39.3,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,0.0,109.0,40.4666666666667,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,3.0,112.0,49.65,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,9.0,121.0,51.0833333333333,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+20,7.0,128.0,52.2,LA,https://a.espncdn.com/i/teamlogos/nfl/500/lar.png,Los Angeles Rams,home,28,22
+21,0.0,0.0,9.25,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,10.0,10.0,9.36666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,20.0,30.0,9.86666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,11.0,41.0,10.7666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,15.0,56.0,16.0,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,0.0,56.0,16.5166666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,8.0,64.0,16.65,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,15.0,79.0,17.45,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,8.0,87.0,18.5,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,0.0,87.0,20.15,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,8.0,95.0,23.0,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,0.0,95.0,27.6666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,31.0,126.0,27.7666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,0.0,126.0,28.0666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,7.0,133.0,28.4,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,0.0,133.0,28.9,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,4.0,137.0,29.05,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,4.0,141.0,29.2833333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,9.0,150.0,31.4333333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,16.0,166.0,34.2166666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,7.0,173.0,34.75,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,26.0,199.0,35.2666666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,0.0,199.0,40.4833333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,11.0,210.0,40.6333333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,11.0,221.0,41.25,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,0.0,221.0,41.7166666666667,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,19.0,240.0,44.6333333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+21,6.0,246.0,49.6833333333333,WAS,https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png,Washington Commanders,home,55,23
+22,8.0,8.0,0.68333333333333,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,-4.0,4.0,2.05,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,20.0,24.0,5.93333333333333,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,27.0,51.0,8.38333333333333,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,0.0,51.0,10.4,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,9.0,60.0,11.2166666666667,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,15.0,75.0,11.6666666666667,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,4.0,79.0,15.0,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,0.0,79.0,15.65,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,22.0,101.0,18.8166666666667,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,3.0,104.0,19.75,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,0.0,104.0,27.5333333333333,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,7.0,111.0,27.75,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,0.0,111.0,28.0,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,12.0,123.0,28.3333333333333,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,4.0,127.0,33.0,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,6.0,133.0,35.0333333333333,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,22.0,155.0,37.5666666666667,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,0.0,155.0,39.4833333333333,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,46.0,201.0,42.2166666666667,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,11.0,212.0,45.0,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
+22,9.0,221.0,46.3833333333333,KC,https://a.espncdn.com/i/teamlogos/nfl/500/kc.png,Kansas City Chiefs,home,40,22
